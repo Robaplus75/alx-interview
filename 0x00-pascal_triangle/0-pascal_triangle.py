@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+''' pascal triangle'''
 
 def pascal_triangle(k):
+    ''' pascal triangle func'''
     res = []
     if k > 0:
         for i in range(1, k + 1):
